@@ -1,0 +1,90 @@
+.login
+{
+   display: flex;
+    /* text-align: center;
+    vertical-align: center; */
+    margin-top: 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15%; */
+    border: 3px solid green;
+}
+.btn
+{
+    margin-top: 5%;
+    font-size: 30px;
+    border-radius: 30%;
+    color:rgb(158, 202, 168) ;
+    background-color: transparent;
+}
+.btn:hover
+{
+    color: aliceblue;
+    background-color: rgb(17, 99, 42);
+}
+
+.input{
+    
+    width: 60%;
+    border-radius: 10%;
+
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.uname
+{
+    justify-content: left;
+    font-size: 20px;
+    display: flex;
+    justify-content:right;
+    
+    color: rgb(147, 198, 159);
+}
+.pass
+{  
+    padding-top: 5%;
+    font-size: 20px;
+   
+    color: rgb(158, 202, 168);
+}
+.signup{
+    display:flex;
+    justify-content: center;
+}
+
+.signupbutton{
+   height: 20px;
+   align-items: center;
+   margin-top: 5.5%;
+   margin-left: 2%;
+   background: transparent;
+}
+
+.signupcon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    width:70%;
+    margin-left:15%;
+    margin-top: 10%;
+    padding: 20px;  
+    flex-direction: column;  
+}
+
+.uname1
+{
+    justify-content: left;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    
+    color: rgb(147, 198, 159);
+}
