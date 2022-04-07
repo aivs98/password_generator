@@ -1,0 +1,5 @@
+export const AUTH ="AUTH"
+export const UNAME="UNAME"
+export const PASS="PASS"
+export const NAME="NAME"
+export const MAIL="MAIL"

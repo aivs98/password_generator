@@ -1,23 +1,35 @@
 .login
 {
    display: flex;
-    /* text-align: center;
-    vertical-align: center; */
     margin-top: 10%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     width: 70%;
     padding-top: 5%;
     padding-bottom: 5%;
     justify-content: center;
-    align-items: center;
-    /* margin-left: 15%; */
+    
     border: 3px solid green;
 }
+
+.logincon
+{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.btnwrap
+{
+    display: flex;
+    justify-content: center;
+}
+
 .btn
 {
     margin-top: 5%;
     font-size: 30px;
     border-radius: 30%;
+    
     color:rgb(158, 202, 168) ;
     background-color: transparent;
 }
@@ -31,7 +43,9 @@
     
     width: 60%;
     border-radius: 10%;
-
+    display: flex;
+    
+    justify-content: right;
     color: rgb(0, 0, 0);
     
     
@@ -42,17 +56,11 @@
     justify-content: left;
     font-size: 20px;
     display: flex;
-    justify-content:right;
-    
+    justify-content: right;
     color: rgb(147, 198, 159);
+    width:100%;
 }
-.pass
-{  
-    padding-top: 5%;
-    font-size: 20px;
-   
-    color: rgb(158, 202, 168);
-}
+
 .signup{
     display:flex;
     justify-content: center;
@@ -84,7 +92,14 @@
     justify-content: left;
     font-size: 20px;
     display: flex;
-    justify-content:center;
+    
     
     color: rgb(147, 198, 159);
+}
+
+.signupLogin
+{
+    display:flex;
+    width:150%;
+    justify-content: center;
 }

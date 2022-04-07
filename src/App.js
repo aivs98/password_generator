@@ -1,35 +1,26 @@
 // import logo from './logo.svg';
-import React from 'react'
-import './App.css';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Provider } from "react-redux";
 
-import Login from './pages/login'
-
-
-
-
+import Login from "./pages/login";
+import store from "./pages/store";
 
 function App() {
   return (
-    
-    
-   
-  <Router>
-      <Navbar />
+    <Provider store={store}>
+      <Router>
+        <Navbar />
 
-        <Routes>  
-         <Route path='/login' element={<Login/>} />
-         {/* <Route path='/pg_manage' element={<PageManage/>} /> */}
+        <Routes>
+          
+          <Route path="/login" element={<Login />} />
          
-      </Routes>
-
-      
-
-
-        
-  </Router>
-  
+        </Routes>
+      </Router>
+    </Provider>
   );
 }
 
